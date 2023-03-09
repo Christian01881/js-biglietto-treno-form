@@ -1,0 +1,97 @@
+.CPM-container{
+    width: 65%;
+    height: 75vh;
+    margin-left: 28%;
+    margin-top: 30px;
+    background-image: url(../img/train2.jpg);
+    background-size: cover;
+}
+
+body{
+    background-image: linear-gradient(#f2d194,#ffffff );
+    /* height:calc(100vh - 30px); */
+} 
+
+.CPM-generator{
+    width: 60%;
+    height: 80%;
+    position: relative;
+    top: 10%;
+    left: -30%;
+    box-shadow: 5px 5px 15px 5px #888888;
+}
+
+
+.CPM-green{
+    color: #0bd40b;
+}
+
+.CPM-container .card{
+    background-image: linear-gradient(to top, #592722, #ffffff 70%)!important;
+}
+
+.CPM-btn{
+    background-color: #f2e4c9;
+    margin-left: 25%;
+    margin-top: 60px;
+}
+
+.CPM-btn:hover{
+    background-color: #f2d194;
+}
+
+.CPM-title{
+    color: #592722; 
+    width: 50%;
+    position: relative;
+    top: 75px;
+    left: 45%;
+    text-align: center;
+}
+
+.CPM-container-ticket{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.CPM-QR{
+    width: 30%;
+}
+
+.CPM-body{
+    width: 70%;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.CPM-m35-left{
+    margin-left: 35px;
+}
+
+.CPM-m65-left{
+    margin-left: 65px;
+}
+
+.CPM-m95-left{
+    margin-left: 95px;
+}
+
+.CPM-m125-left{
+    margin-left: 125px;
+}
+
+.CPM-container-ticket .card{
+    background-image: linear-gradient(to left, #a1a1a6, #ffffff 70%);
+}
+
+.CPM-container-ticket p{
+    width: 200px;
+}
+
+.CPM-info-m{
+    margin-left: 70%;
+}

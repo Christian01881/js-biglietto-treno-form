@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="CPM-container border rounded-4">
+        <div class="CPM-title">
+            <h1>BoolTravel dove i viaggi e i sogni si incontrano a metà strada!</h1>
+        </div>
+        <div class="card border border-dark CPM-generator rounded-4">
+            <h2 class="fs-3 text-center mt-3">BoolTravel genera il tuo biglietto</h2>
+            <p class="text-center mt-3 fs-5">Approfitta dei nostri <strong>Sconti</strong>, se hai meno di <strong>18</strong> anni hai diritto ad uno sconto del <strong class="CPM-green">20%</strong>, se ne hai più di 65 del <strong class="CPM-green">40%</strong></p>
+            <form class="text-center">
+                <input type="text" name="Name" id="Name" class="col-5 mt-3" placeholder="Inserisci il tuo nome">
+                <input type="text" name="LastName" id="LastName" class="col-5 mt-3" placeholder="Inserisci il tuo cognome">
+                <input type="number" name="Age" id="Age" class="col-5 mt-3" placeholder="Inserisci la tua età">
+                <input type="number" name="Km" id="Km" class="col-5 mt-3" placeholder="Inserisci i kilometri da percorrere">
+            </form>
+            <button class="btn CPM-btn w-50">Genera il Biglietto</button>
+        </div>
+    </div>
+    <div class="CPM-container-ticket rounded mb-3">
+        <div class="card d-flex flex-row rounded border-dark">
+            <div class="CPM-QR">
+                <img src="./img/QR.jpg" alt="">
+            </div>
+            <div class="CPM-body">
+                <p class="border border-dark mt-5 CPM-m35-left Name2" >c</p>
+                <p class="border border-dark mt-5 CPM-m65-left LastName2"></p>
+                <p class="border border-dark mt-5 CPM-m95-left Km2"></p>
+                <p class="border border-dark mt-5 CPM-m125-left price2"></p>
+                <span class="CPM-info-m">cuao</span><span></span>
+            </div>
+        </div>
+    </div>
+   
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
