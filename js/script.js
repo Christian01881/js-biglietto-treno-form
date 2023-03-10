@@ -6,14 +6,14 @@ const ageBox = document.querySelector('input[name="Age"]');
 const kmBox = document.querySelector('input[name="Km"]');
 const button =  document.querySelector('button');
 const tariffa = 0.21;
-const nameUser = document.querySelector('input[name="Name"]')
-const lastNameUser = document.querySelector('input[name="LastName"]')
+const nameUser = document.querySelector('input[name="Name"]');
+const lastNameUser = document.querySelector('input[name="LastName"]');
 const nome = document.querySelector('.Name2');
-const lastName = document.querySelector('.LastName2')
-const finalPrice = document.querySelector('.price2')
-const buttonCalc = document.getElementById('Calcola')
-const buttonCanc = document.getElementById('Cancella')
-const CPM = document.getElementById('lista')
+const lastName = document.querySelector('.LastName2');
+const finalPrice = document.querySelector('.price2');
+const buttonCalc = document.getElementById('Calcola');
+const buttonCanc = document.getElementById('Cancella');
+const CPM = document.getElementById('lista');
 
 buttonCalc.addEventListener('click', function () {
 
@@ -45,7 +45,7 @@ buttonCanc.addEventListener('click', function () {
     lastName.innerHTML = '';
     finalPrice.innerHTML = '';
     CPM.classList.add('opacity-0');
-})
+});
 
 
 
