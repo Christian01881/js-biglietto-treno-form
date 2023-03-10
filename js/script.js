@@ -21,7 +21,7 @@ buttonCalc.addEventListener('click', function () {
     let nameUser2 = nameUser.value;
     let age = ageBox.value;
     let km = kmBox.value;
-    let price = km * tariffa;
+    let price = km * tariffa.toFixed(2);
     if(age < 18){
         price = ((km * tariffa) - (price * 0.2)).toFixed(2);
     } else if(age > 65){
@@ -30,7 +30,7 @@ buttonCalc.addEventListener('click', function () {
 
     nome.innerHTML += `<span>Nome: ${nameUser2}</span>`;
     lastName.innerHTML += `<span>Cognome: ${surname}</span>`;
-    finalPrice.innerHTML += `<span>${price}</span>`;
+    finalPrice.innerHTML += `<span>${price} €</span>`;
     CPM.classList.remove('opacity-0');
 });
 
