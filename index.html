@@ -17,25 +17,25 @@
             <h2 class="fs-3 text-center mt-3">BoolTravel genera il tuo biglietto</h2>
             <p class="text-center mt-3 fs-5">Approfitta dei nostri <strong>Sconti</strong>, se hai meno di <strong>18</strong> anni hai diritto ad uno sconto del <strong class="CPM-green">20%</strong>, se ne hai più di 65 del <strong class="CPM-green">40%</strong></p>
             <form class="text-center">
-                <input type="text" name="Name" id="Name" class="col-5 mt-3" placeholder="Inserisci il tuo nome">
-                <input type="text" name="LastName" id="LastName" class="col-5 mt-3" placeholder="Inserisci il tuo cognome">
-                <input type="number" name="Age" id="Age" class="col-5 mt-3" placeholder="Inserisci la tua età">
-                <input type="number" name="Km" id="Km" class="col-5 mt-3" placeholder="Inserisci i kilometri da percorrere">
+                <input type="text" name="Name" id="Name" class="col-5 mt-3" placeholder="Inserisci il tuo nome" required>
+                <input type="text" name="LastName" id="LastName" class="col-5 mt-3" placeholder="Inserisci il tuo cognome" required>
+                <input type="number" name="Age" id="Age" class="col-5 mt-3" placeholder="Inserisci la tua età" required>
+                <input type="number" name="Km" id="Km" class="col-5 mt-3" placeholder="Inserisci i kilometri da percorrere" required>
             </form>
-            <button class="btn CPM-btn w-50">Genera il Biglietto</button>
+            <button id="Calcola" class="btn CPM-btn w-50 ">Genera il Biglietto</button>
+            <button id="Cancella" class="btn CPM-btn2 w-50 ">Cancella i tuoi dati</button>
         </div>
     </div>
-    <div class="CPM-container-ticket rounded mb-3">
+    <div id="lista" class="CPM-container-ticket rounded mb-3 opacity-0">
         <div class="card d-flex flex-row rounded border-dark">
             <div class="CPM-QR">
                 <img src="./img/QR.jpg" alt="">
             </div>
             <div class="CPM-body">
-                <p class="border border-dark mt-5 CPM-m35-left Name2" >c</p>
-                <p class="border border-dark mt-5 CPM-m65-left LastName2"></p>
-                <p class="border border-dark mt-5 CPM-m95-left Km2"></p>
-                <p class="border border-dark mt-5 CPM-m125-left price2"></p>
-                <span class="CPM-info-m">cuao</span><span></span>
+                <p id="Name2" class="border border-dark mt-4 CPM-m35-left Name2" ></p>
+                <p class="border border-dark mt-4 CPM-m65-left LastName2"></p>
+                <p class="border border-dark mt-4 CPM-m95-left ">Carrozza: 5</p>
+                <p class="border border-dark mt-4 CPM-m125-left price2"></p>
             </div>
         </div>
     </div>

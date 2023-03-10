@@ -32,11 +32,18 @@ body{
 
 .CPM-btn{
     background-color: #f2e4c9;
-    margin-left: 25%;
     margin-top: 60px;
+    margin-left: 25%;
 }
 
-.CPM-btn:hover{
+.CPM-btn2{
+    background-color: #f2e4c9;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+
+.btn:hover{
     background-color: #f2d194;
 }
 
@@ -90,6 +97,8 @@ img{
 
 .CPM-container-ticket p{
     width: 200px;
+    height: 30px;
+    text-align: center;
 }
 
 .CPM-info-m{
